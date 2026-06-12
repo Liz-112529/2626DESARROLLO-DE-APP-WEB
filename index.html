@@ -7,7 +7,7 @@
     <style>
         /* Fondo */
         body {
-            background: linear-gradient(to right, #f5f7fa, #c3cfe2); /* degradado elegante */
+            background: linear-gradient(to right, #f5f7fa, #c3cfe2); 
             font-family: 'Arial', sans-serif;
             color: #333;
             margin: 0;
@@ -16,33 +16,36 @@
 
         /* Encabezado principal */
         h1 {
-            color: #e8388d; /* rojo oscuro */
+            color: #e8388d; 
             text-align: center;
             font-size: 3em;
             margin-top: 30px;
-            font-family: 'Georgia', serif;
-            text-shadow: 2px 2px #f0e68c; /* sombra para resaltar */
+           font-family: 'Lobster', cursive;
+            text-shadow: 2px 2px #f0e68c; 
         }
 
         /* Subtítulo */
         h3 {
-            color: #556b2f; /* verde oliva */
+            color: hsl(150, 33%, 51%); /* verde oliva */
             text-align: center;
             font-style: italic;
         }
 
         /* Párrafo */
         p {
-            text-align: center;
-            font-size: 1.2em;
-            margin: 20px 10%;
-            line-height: 1.6;
-            color: #4b0082; /* azul profundo */
-        }
+        text-align: left;
+        font-size: 1.2em;
+        margin: 20px 10%;
+        line-height: 1.6;
+        color: #4b0082;
+    }
 
-        /* Sección de contacto */
+    #Inicio p {
+        text-align: center;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #e838d4;
         .contact {
-            background-color: #fff8dc; /* color crema */
+            background-color: #fff8dc;
             padding: 20px;
             margin: 30px auto;
             width: 80%;
@@ -51,29 +54,120 @@
             text-align: center;
         }
 
-        .contact h2 {
-            color: #8B0000;
-        }
-
-        .contact p {
-            margin: 8px 0;
-            font-size: 1em;
-            color: #333;
-        }
     </style>
 </head>
 <body>
-    <h1>SALÓN DE EVENTOS Liz KA2</h1>
-    <h2>Hacemos de tus eventos momentos inolvidables.</h2>
-    <p>En Liz KA2 Guayaquil no solo celebras un evento, vives una experiencia. Nuestros espacios interiores y al aire libre están diseñados para transformar cumpleaños, bodas, quinceañeras, baby showers y reuniones especiales en momentos únicos.</p>
-    <h3>Nombre: Liz Sandra Peña Véliz</h3>
+     <header>
+    <nav>
+        <a href="#Inicio">Inicio</a> |
+        <a href="#Quienes-somos">Quiénes somos</a> |
+        <a href="#Contacto">Contacto</a> |
+        <a href="#Servicios">Servicios</a>
+    </nav>
+</header>
+    <h1>SALÓN DE EVENTOS</h1>
+    <div style="position: relative;"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTFgVEkSyHFbjV9xrsegK8GyO6LhynAM5qy9Ia2wPUSQ&s=10" alt="Logo de Liz KA2" style="width:100%; max-height: 500px"><span style="position:absolute;bottom:10px;left:50%;transform:translateX(-50%);color:white;font-size:3em;font-family:'Lobster',cursive;">Liz KA2</span></div>
+    <main>
+        <section id="Inicio" style="background-color:rgb(245, 192, 240); padding:20px;">
+            <h2 style="margin-top:0; color:#110c0f;">Inicio</h2>
+            <table style="width: 90%; margin:20px auto; background-color:#e8eda1; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.2); border-collapse:collapse;">
+  <tr>
+    <td style="padding:20px; text-align:center; font-family:Arial, sans-serif; color:#7d26ba;">
+      <p style="font-size:1.2em; line-height:1.6;">
+        Bienvenidos a Liz KA2 en Guayaquil no solo celebras un evento, vives una experiencia. 
+        Nuestros espacios interiores y al aire libre están diseñados para transformar cumpleaños, 
+        bodas, quinceañeras, baby showers y reuniones especiales en momentos únicos.
+      </p>
+    </td>
+  </tr>
+</table>
+<article style="display:flex; gap:20px; width:90%; margin:20px auto; font-family:Arial, sans-serif;">
 
-    <!-- Contactos -->
-    <div class="contact">
-        <h2>Contacto</h2>
-        <p><strong>Teléfono:</strong> +593 9 677 9567</p>
-        <p><strong>Correo:</strong> info@lizka2.com</p>
-        <p><strong>Dirección:</strong> Av. Principal #512, Guayaquil, Ecuador</p>
+  <p style="flex:1; background-color:#90eaed; padding:15px; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.2); text-align:justify; color:#4b0082;">
+    <strong style="display:block; text-align:center; color:#e8388d;">Historia</strong>
+    Liz KA2 nació en Guayaquil con el objetivo de crear experiencias inolvidables. Desde su inicio, hemos organizado bodas, cumpleaños y eventos especiales combinando creatividad, atención al detalle y espacios versátiles. Cada celebración se diseña para ser única, dejando recuerdos memorables en nuestros clientes.
+  </p>
+  <p style="flex:1; background-color:#f8d383; padding:15px; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.2); text-align:justify; color:#4b0082;">
+    <strong style="display:block; text-align:center; color:#e8388d;">Misión</strong>
+    Nuestra misión es ofrecer servicios personalizados de alta calidad, asegurando confort, elegancia y profesionalismo. Liz KA2 se distingue por su atención al cliente, innovación en decoración y capacidad de hacer que cada evento sea verdaderamente especial y único.
+  </p>
+
+</article>
+        </section>
+
+        <section id="Quienes-somos">
+            <h2>Quienes-somos</h2>
+            <p style="color: black; text-align: justify; font-family: bangers;">Liz KA2 es un proyecto dedicado a ofrecer experiencias únicas en la organización de eventos
+        sociales y corporativos en Guayaquil. Nuestra misión es transformar cada celebración en un
+        momento inolvidable, combinando espacios cuidadosamente diseñados, decoración elegante y
+        servicios personalizados para cada cliente. Contamos con un equipo profesional comprometido
+        con la excelencia, capaz de atender desde cumpleaños y bodas hasta baby showers, quinceañeras
+        y reuniones familiares o empresariales. Nuestro enfoque se centra en brindar calidad, confort
+        y creatividad en cada detalle, asegurando que cada evento refleje la personalidad y los
+        deseos de quienes nos eligen. Con Liz KA2, cada celebración se convierte en un recuerdo
+        memorable y único, donde la atención al cliente y la innovación son siempre nuestra prioridad.</p>
+        </section>
+
+        <section id="Servicios">
+            <h2>Servicios</h2>
+            <p>Ofrecemos espacios diseñados para que cada evento se desarrolle en un ambiente cómodo, elegante y memorable.</p>
+         <ul style="color: hsl(334, 74%, 43%); font-family: Lobster, cursive;">
+    <li>Organización de cumpleaños.</li>
+    <li>Decoración para bodas y quinceañeras.</li>
+    <li>Eventos familiares y reuniones especiales.</li>
+    <li>Baby showers y bautizos.</li>
+    <li>Alquiler de salón para celebraciones.</li>
+</ul>
+    <div style="display:flex; flex-wrap:wrap; gap:10px; justify-content:center;">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfgXwit4J_hZsnyVTGqVtki99WwrUWQhyx_SOPK_H67g&s=10" style="width:40%; max-height:400px; object-fit:cover; border-radius:10px; box-shadow:0 8px 8px rgba(0,0,0,0.2); transition:transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)';">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoB_YEd6nuw0sYp1xQfZ0hTwjEwraMonKWo8zf8bqbxQ&s=10" style="width:40%; max-height:400px; object-fit:cover; border-radius:10px; box-shadow:0 8px 8px rgba(0,0,0,0.2); transition:transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)';">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgVaJL-yVTfUyxwJlYANG9L3jf-7h3WYjJWI-7N9DKRA&s=10" style="width:40%; max-height:400px; object-fit:cover; border-radius:10px; box-shadow:0 8px 8px rgba(0,0,0,0.2); transition:transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)';">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEKVPkz0bWFllbQEzdkxvyvkjj4OXQeMuoX2UgH48ORA&s=10" style="width:40%; max-height:400px; object-fit:cover; border-radius:10px; box-shadow:0 8px 8px rgba(0,0,0,0.2); transition:transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)';">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsS1FsazNsb8y_6cYB2aXXPHhkyoj69mQb8hr-kTA3Ew&s=10" style="width:40%; max-height:400px; object-fit:cover; border-radius:10px; box-shadow:0 8px 8px rgba(0,0,0,0.2); transition:transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)';">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH5S7cRH3IEwQGmUo72Azyy4BmOVJo0_CLsgUPzq3VBA&s=10" style="width:40%; max-height:400px; object-fit:cover; border-radius:10px; box-shadow:0 8px 8px rgba(0,0,0,0.2); transition:transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)';">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnLBRAohDbSxa8-Q5pVjQc6BqNJIDDMSPmmP5EfFd8vw&s=10" style="width:40%; max-height:400px; object-fit:cover; border-radius:10px; box-shadow:0 8px 8px rgba(0,0,0,0.2); transition:transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)';">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcnlqtA_qVkaB6kwxF9-B9PUOcgbVtZ70Skpbbuangbg&s=10" style="width:40%; max-height:400px; object-fit:cover; border-radius:10px; box-shadow:0 8px 8px rgba(0,0,0,0.2); transition:transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)';">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlrxwB67R386u3ds0amq9ahnvp6YD0VqMsDpvacgn3-Q" style="width:40%; max-height:400px; object-fit:cover; border-radius:10px; box-shadow:0 8px 8px rgba(0,0,0,0.2); transition:transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)';">
+</div>
+
+        </section>
+        <div style="display:flex; gap:100px; justify-content:center; flex-wrap:wrap;">
+        <iframe src="https://www.youtube.com/embed/N3k4UyZijZo" width="500" height="250" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/WnS1fpEOJuA" width="500" height="250" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <aside>
+            <h2>Promociones exclusivas</h2>
+            <p>Conoce nuestras promociones exclusivas y cotiza el evento de tus sueños al mejor precio.</p>
+        
+            <div style="display:flex; flex-wrap:wrap; gap:15px; justify-content:center;">
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlq3vkx0zdFyYEkA9Wu7lkYbZkF3zaBfLH-b19Hc4rVw&s=1" style="width:30%; max-height:500px; object-fit:cover; border-radius:10px; box-shadow:0 8px 8px rgba(0,0,0,0.2); transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_2yPubAgX_5Ay694FT2RRHaZ9eygh4i96qaIxZ3eNSQ&s=10 alt=2" style="width:45%; max-height:500px; object-fit:cover; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.2); transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9vB5x3PcAlv4tTFo3WS96ulJel5pPnM2QpAFi2wPPfw&s=10 alt=3" style="width:45%; max-height:300px; object-fit:cover; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.2); transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8cnsak4nhT5Z3zzaod4O-CiJJII3MF-zs5G2A_qvhXw&s=10 alt=4" style="width:20%; max-height:300px; object-fit:cover; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.2); transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            </div>
+        </aside>
+    </main>
+    <section id="Contacto" style="background-color:black; color:white; padding:20px;">
+        <div>
+    <h2>Contacto</h2>
+    <p style="color: #90eaed;">Pueden contactarnos por medio de nuestro correo electrónico</p>
+    <a href="https://www.hotelcastell.com/eventos.html" style="color:white;">
+        <p style="color: #41c5f5;">Correo electrónico</p>
+        
+        <p><span style="color: blue;">Facebook:</span> <a href="https://www.facebook.com/HotelCastellGuayaquil/" target="_blank" style="color:white;">Visítanos</a></p>
+        <p><span style="color: rgb(223, 95, 184);">Instagram:</span> <a href="https://www.instagram.com/hotelcastell/" target="_blank" style="color:white;">@hotelcastell</a></p>
+        <p><span style="color: rgb(248, 244, 244);">TikTok:</span> <a href="https://www.tiktok.com/@hotelcastellgye" target="_blank" style="color:white;">@hotelcastellgye</a></p>
+        <p><strong style="color: #f0e68c;">Teléfono:</strong><span style="color: white;"> +593 9 677 9567</span></p>
+        <p><strong style="color: #f0e68c;">Dirección:</strong><span style="color: white;"> Av. Principal #512, Guayaquil, Ecuador</span></p>
+    </a>
     </div>
+</section>
+
+    <footer>
+    <p style="text-align: right; font-family: 'Lobster', cursive; color: black;">© 2026 Salón de Eventos Liz KA2. Todos los derechos reservados.</p>
+</footer>
+
 </body>
 </html>
+
