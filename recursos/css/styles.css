@@ -1,5 +1,5 @@
 h1 {
-            color: #e711d9; 
+            color: #921292; 
             text-align: center;
             font-size: 3em;
             margin-top: 30px;
@@ -9,7 +9,7 @@ h1 {
 
         body {
             font-family: 'Arial', sans-serif;
-            color: #c51e2f;
+            color: #0a0708;
             margin: 0;
             padding: 0;
         }
@@ -64,7 +64,7 @@ h1 {
   flex: 0 1 350px; /* tamaño controlado */
   padding: 15px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(209, 206, 206, 0.797);
   text-align: justify;
   color: #4b0082;
 }
@@ -126,7 +126,7 @@ button {
  background: linear-gradient(to right, #84e793, #1a9711); /* Gradiente */
  border: none;
  border-radius: 12px; /* Bordes redondeados */
- box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3); /* Sombra */
+ box-shadow: 2px 4px 10px rgba(236, 234, 234, 0.3); /* Sombra */
  color: rgb(22, 25, 16);
  padding: 10px 30px;
  font-size: 16px;
@@ -144,7 +144,7 @@ button:hover {
   justify-content: space-around;
   align-items: center;
   gap: 10px;
-  background-color: rgb(16, 4, 15);
+  background-color: rgb(237, 236, 237);
   padding: 5px;
   flex-wrap: wrap; /* evita que baje */
 }
@@ -183,3 +183,75 @@ button:hover {
   transition: 0.3s;
 }
 
+/* SECCIÓN REGISTRO EN PANTALLA COMPLETA */
+#registro.registro-pantalla {
+    width: 100%;
+    min-height: 100vh;
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* CONTENEDOR GENERAL */
+.registro-contenedor {
+    width: 100%;
+    max-width: 1800px;
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* TARJETAS */
+.registro-card,
+.registros-card {
+    border-radius: 16px;
+    background-color: #ffffff;
+}
+
+/* ALTURA DE LA ZONA DE REGISTROS */
+.registros-card {
+    min-height: 100px;
+}
+
+/* TÍTULOS */
+#registro h2,
+#registro h3,
+#registro h4 {
+    color: #111;
+    font-style: normal;
+}
+
+/* CAMPOS */
+#registro .form-control,
+#registro .form-select {
+    padding: 12px;
+    font-size: 16px;
+}
+
+/* BOTÓN */
+#registro .btn-success {
+    padding: 12px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* TARJETAS CREADAS DINÁMICAMENTE */
+#listaRegistros .card {
+    border-radius: 12px;
+}
+
+/* RESPONSIVO */
+@media (max-width: 991px) {
+    #registro.registro-pantalla {
+        padding: 30px 15px;
+    }
+
+    .registro-contenedor {
+        min-height: auto;
+    }
+
+    .registros-card {
+        min-height: auto;
+    }
+}
